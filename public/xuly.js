@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000");
+var socket = io("http://150.95.109.69/");
 
 socket.on("server-send-dki-thatbai", function(){
   alert("Sai user name (User nay da co nguoi dang ky roi)!!!");
